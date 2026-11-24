@@ -7,350 +7,343 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/kit.css">
+  <link rel="stylesheet" href="css/estilos.css">
   <link rel="icon" href="img/logo.jpeg">
 </head>
 <body>
 
-  <header>
-    <div class="logo">
-      <img src="img/logo.jpeg" alt="Logo de Licores García" width="150">
-      <h1>Licores García</h1>
-    </div>
-            <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="productos.html">productos</a></li>
-                <li><a href="servicio.html">servicios</a></li>
-                <li><a href="contacto.html">contacto</a></li>
-                <li><a href="nosotros.html">nosotros</a></li>
-            </ul>
+  <header class="encabezado">
+    <a href="index.html" class="logo">
+      <img src="img/logo.jpeg" alt="Logo de Licores García">
+      Licores <span>García</span>
+    </a>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html" class="activo">Productos</a></li>
+        <li><a href="servicio.html">Servicios</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
+  <main class="contenedor seccion">
     <h2>Catálogo de Productos</h2>
 
-    <h2 id="aguardiente">Aguardiente</h2>
-    <section class="vitrina">
-
-      <br>
-
+    <h3 class="vitrina-titulo" id="aguardiente">Aguardiente Antioqueño</h3>
+    <div class="vitrina">
       <article class="producto">
-        <img src="img/aguardienteAntio.jpeg" alt="Aguardiente">
-        <span class="categoria">Aguardiente</span>
-        <h3>Aguardiente Antioqueño Rojo</h3>
-        <div class="precio">
-          <p>Cuarto 260 ml - $23.000</p>
-          <p>Media 375 ml - $35.000</p>
-          <p>Botella 750 ml - $52.000</p>
-          <p>Litro Tetra 1000 ml - $62.000</p>
-          <p>Garrafa 2000 ml - $120.000</p>
+        <div class="producto-img-caja">
+          <img src="img/aguardienteAntio.jpeg" alt="Aguardiente Antioqueño Tradicional">
         </div>
-
-        <br>
-
-      </article>
-      <article class="producto">
-        <span class="categoria">Aguardiente</span>
-        <h3>Aguardiente Antioqueño Verde</h3>
+        <p class="categoria">Aguardiente</p>
+        <h3>Antioqueño Tradicional (Rojo)</h3>
         <div class="precio">
-          <p>Cuarto 260 ml - $23.000</p>
-          <p>Media 375 ml - $35.000</p>
-          <p>Botella 750 ml - $52.000</p>
-          <p>Litro Tetra 1000 ml - $62.000</p>
-          <p>Garrafa 2000 ml - $120.000</p>
+          <p><span>Cuarto 260 ml</span> <strong>$23.000</strong></p>
+          <p><span>Media 375 ml</span> <strong>$35.000</strong></p>
+          <p><span>Botella 750 ml</span> <strong>$52.000</strong></p>
+          <p><span>Litro Tetra 1000 ml</span> <strong>$62.000</strong></p>
+          <p><span>Garrafa 2000 ml</span> <strong>$120.000</strong></p>
         </div>
-
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Aguardiente%20Antioque%C3%B1o%20Rojo" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
+
       <article class="producto">
-        <span class="categoria">Aguardiente</span>
-        <h3>Aguardiente Antioqueño Azul</h3>
+        <div class="producto-img-caja">
+          <img src="img/aguardienteAntio.jpeg" alt="Aguardiente Antioqueño Sin Azúcar">
+        </div>
+        <p class="categoria">Aguardiente</p>
+        <h3>Antioqueño Sin Azúcar (Verde)</h3>
         <div class="precio">
-          <p>Cuarto 260 ml - $23.000</p>
-          <p>Media 375 ml - $35.000</p>
-          <p>Botella 750 ml - $52.000</p>
-          <p>Litro Tetra 1000 ml - $62.000</p>
-          <p>Garrafa 2000 ml - $120.000</p>
+          <p><span>Cuarto 260 ml</span> <strong>$23.000</strong></p>
+          <p><span>Media 375 ml</span> <strong>$35.000</strong></p>
+          <p><span>Botella 750 ml</span> <strong>$52.000</strong></p>
+          <p><span>Litro Tetra 1000 ml</span> <strong>$62.000</strong></p>
+          <p><span>Garrafa 2000 ml</span> <strong>$120.000</strong></p>
         </div>
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Aguardiente%20Antioque%C3%B1o%20Verde" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
-    </section>
 
-    <br><br><br>
-
-    <h2 id="ron-medellin">Ron Medellín</h2>
-    <section class="vitrina">
       <article class="producto">
-        <img src="img/ronmedellin.jpeg" alt="Ron Medellín">
-        <span class="categoria">Ron Medellín</span>
-        <h3>Ron Medellín Añejo 3 años</h3>
+        <div class="producto-img-caja">
+          <img src="img/aguardienteAntio.jpeg" alt="Aguardiente Antioqueño 24 Grados">
+        </div>
+        <p class="categoria">Aguardiente</p>
+        <h3>Antioqueño 24° (Azul)</h3>
         <div class="precio">
-          <p>Media 375 ml - $38.000</p>
-          <p>Botella 750 ml - $60.000</p>
-          <p>Litro 1000 ml - $80.000</p>
+          <p><span>Cuarto 260 ml</span> <strong>$23.000</strong></p>
+          <p><span>Media 375 ml</span> <strong>$35.000</strong></p>
+          <p><span>Botella 750 ml</span> <strong>$52.000</strong></p>
+          <p><span>Litro Tetra 1000 ml</span> <strong>$62.000</strong></p>
+          <p><span>Garrafa 2000 ml</span> <strong>$120.000</strong></p>
         </div>
-
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Aguardiente%20Antioque%C3%B1o%20Azul" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
+    </div>
+
+    <h3 class="vitrina-titulo" id="ron-medellin">Ron Medellín</h3>
+    <div class="vitrina">
       <article class="producto">
-        <span class="categoria">Ron Medellín</span>
-        <h3>Ron Medellín 5 años</h3>
+        <div class="producto-img-caja">
+          <img src="img/ronmedellin.jpeg" alt="Ron Medellín Añejo 3 años">
+        </div>
+        <p class="categoria">Ron</p>
+        <h3>Ron Medellín Añejo 3 Años</h3>
         <div class="precio">
-          <p>Media 375 ml - $40.000</p>
-          <p>Botella 750 ml - $78.000</p>
+          <p><span>Media 375 ml</span> <strong>$38.000</strong></p>
+          <p><span>Botella 750 ml</span> <strong>$60.000</strong></p>
+          <p><span>Litro 1000 ml</span> <strong>$80.000</strong></p>
         </div>
-
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Ron%20Medellin%203%20A%C3%B1os" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
+
       <article class="producto">
-        <span class="categoria">Ron Medellín</span>
-        <h3>Ron Medellín 8 años</h3>
+        <div class="producto-img-caja">
+          <img src="img/ronmedellin.jpeg" alt="Ron Medellín 5 años">
+        </div>
+        <p class="categoria">Ron</p>
+        <h3>Ron Medellín 5 Años</h3>
         <div class="precio">
-          <p>Media 375 ml - $50.000</p>
-          <p>Botella 750 ml - $95.000</p>
+          <p><span>Media 375 ml</span> <strong>$40.000</strong></p>
+          <p><span>Botella 750 ml</span> <strong>$78.000</strong></p>
         </div>
-        <br>
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Ron%20Medellin%205%20A%C3%B1os" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
-    </section>
 
-    <br><br><br>
-
-    <h2 id="ron-caldas">Ron Viejo de Caldas</h2>
-    <section class="vitrina">
       <article class="producto">
-        <img src="img/roncaldas.jpeg" alt="Ron Viejo de Caldas">
-        <span class="categoria">Ron Viejo de Caldas</span>
-        <h3>Ron Viejo de Caldas Tradicional</h3>
+        <div class="producto-img-caja">
+          <img src="img/ronmedellin.jpeg" alt="Ron Medellín 8 años">
+        </div>
+        <p class="categoria">Ron</p>
+        <h3>Ron Medellín 8 Años</h3>
         <div class="precio">
-          <p>Media 375 ml - $40.000</p>
-          <p>Botella 750 ml - $62.000</p>
-          <p>Litro Tetra 1000 ml - $82.000</p>
+          <p><span>Media 375 ml</span> <strong>$50.000</strong></p>
+          <p><span>Botella 750 ml</span> <strong>$95.000</strong></p>
         </div>
-        
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Ron%20Medellin%208%20A%C3%B1os" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
+    </div>
+
+    <h3 class="vitrina-titulo" id="ron-caldas">Ron Viejo de Caldas</h3>
+    <div class="vitrina">
       <article class="producto">
-        <span class="categoria">Ron Viejo de Caldas</span>
-        <h3>Ron Viejo de Caldas Esencial</h3>
+        <div class="producto-img-caja">
+          <img src="img/roncaldas.jpeg" alt="Ron Viejo de Caldas Tradicional">
+        </div>
+        <p class="categoria">Ron</p>
+        <h3>Ron Caldas Tradicional</h3>
         <div class="precio">
-          <p>Media 375 ml - $38.000</p>
-          <p>Botella 750 ml - $60.000</p>
-          <p>Litro 1000 ml - $80.000</p>
+          <p><span>Media 375 ml</span> <strong>$40.000</strong></p>
+          <p><span>Botella 750 ml</span> <strong>$62.000</strong></p>
+          <p><span>Litro Tetra 1000 ml</span> <strong>$82.000</strong></p>
         </div>
-
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Ron%20Caldas%20Tradicional" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
+
       <article class="producto">
-        <span class="categoria">Ron Viejo de Caldas</span>
-        <h3>Carta de Oro 8 años</h3>
+        <div class="producto-img-caja">
+          <img src="img/roncaldas.jpeg" alt="Ron Viejo de Caldas Esencial">
+        </div>
+        <p class="categoria">Ron</p>
+        <h3>Ron Caldas Esencial</h3>
         <div class="precio">
-          <p>Media 375 ml - $65.000</p>
-          <p>Botella 750 ml - $120.000</p>
+          <p><span>Media 375 ml</span> <strong>$38.000</strong></p>
+          <p><span>Botella 750 ml</span> <strong>$60.000</strong></p>
+          <p><span>Litro 1000 ml</span> <strong>$80.000</strong></p>
         </div>
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Ron%20Caldas%20Esencial" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
-    </section>
 
-    <br><br><br>
-
-    <h2 id="whisky">Whisky</h2>
-    <section class="vitrina">
       <article class="producto">
-        <img src="img/buchanans.jpeg" alt="Whisky">
-        <span class="categoria">Whisky</span>
-        <h3>Buchanan's Deluxe 12 años</h3>
+        <div class="producto-img-caja">
+          <img src="img/roncaldas.jpeg" alt="Carta de Oro 8 años">
+        </div>
+        <p class="categoria">Ron</p>
+        <h3>Carta de Oro 8 Años</h3>
         <div class="precio">
-          <p>Media 375 ml - $115.000</p>
-          <p>Botella 750 ml - $190.000</p>
+          <p><span>Media 375 ml</span> <strong>$65.000</strong></p>
+          <p><span>Botella 750 ml</span> <strong>$120.000</strong></p>
         </div>
-
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Carta%20de%20Oro" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
+    </div>
+
+    <h3 class="vitrina-titulo" id="whisky">Whisky</h3>
+    <div class="vitrina">
       <article class="producto">
-        <span class="categoria">Whisky</span>
-        <h3>Old Parr 12 años</h3>
+        <div class="producto-img-caja">
+          <img src="img/buchanans.jpeg" alt="Buchanans Deluxe 12 años">
+        </div>
+        <p class="categoria">Whisky</p>
+        <h3>Buchanan's Deluxe 12 Años</h3>
         <div class="precio">
-          <p>Botella 750 ml - $190.000</p>
+          <p><span>Media 375 ml</span> <strong>$115.000</strong></p>
+          <p><span>Botella 750 ml</span> <strong>$190.000</strong></p>
         </div>
-
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Buchanans%2012" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
+
       <article class="producto">
-        <span class="categoria">Whisky</span>
+        <div class="producto-img-caja">
+          <img src="img/buchanans.jpeg" alt="Old Parr 12 años">
+        </div>
+        <p class="categoria">Whisky</p>
+        <h3>Old Parr 12 Años</h3>
+        <div class="precio">
+          <p><span>Botella 750 ml</span> <strong>$190.000</strong></p>
+        </div>
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Old%20Parr%2012" target="_blank" class="boton">Pedir por WhatsApp</a>
+      </article>
+
+      <article class="producto">
+        <div class="producto-img-caja">
+          <img src="img/buchanans.jpeg" alt="Johnnie Walker Red Label">
+        </div>
+        <p class="categoria">Whisky</p>
         <h3>Johnnie Walker Red Label</h3>
         <div class="precio">
-          <p>Botella 750 ml - $100.000</p>
+          <p><span>Botella 750 ml</span> <strong>$100.000</strong></p>
         </div>
-
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Johnnie%20Walker%20Red" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
-    </section>
+    </div>
 
-    <br><br><br>
-
-    <h2 id="tequila">Tequila</h2>
-    <section class="vitrina">
+    <h3 class="vitrina-titulo" id="tequila">Tequila</h3>
+    <div class="vitrina">
       <article class="producto">
-        <img src="img/josecuervo.jpeg" alt="Tequila">
-        <span class="categoria">Tequila</span>
+        <div class="producto-img-caja">
+          <img src="img/josecuervo.jpeg" alt="José Cuervo Especial">
+        </div>
+        <p class="categoria">Tequila</p>
         <h3>José Cuervo Especial</h3>
         <div class="precio">
-          <p>Botella 750 ml - $115.000</p>
+          <p><span>Botella 750 ml</span> <strong>$115.000</strong></p>
         </div>
-
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Jose%20Cuervo" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
+
       <article class="producto">
-        <span class="categoria">Tequila</span>
+        <div class="producto-img-caja">
+          <img src="img/josecuervo.jpeg" alt="Don Julio Blanco">
+        </div>
+        <p class="categoria">Tequila</p>
         <h3>Don Julio Blanco</h3>
         <div class="precio">
-          <p>Botella 750 ml - $230.000</p>
+          <p><span>Botella 750 ml</span> <strong>$230.000</strong></p>
         </div>
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Don%20Julio%20Blanco" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
-    </section>
+    </div>
 
-    <br><br><br>
-
-    <h2 id="smirnoff">Smirnoff</h2>
-    <section class="vitrina">
+    <h3 class="vitrina-titulo" id="smirnoff">Smirnoff</h3>
+    <div class="vitrina">
       <article class="producto">
-        <img src="img/smirnoff.jpeg" alt="Smirnoff">
-        <span class="categoria">Smirnoff</span>
-        <h3>Smirnoff de Tamarindo</h3>
+        <div class="producto-img-caja">
+          <img src="img/smirnoff.jpeg" alt="Smirnoff Tamarindo">
+        </div>
+        <p class="categoria">Aperitivo</p>
+        <h3>Smirnoff Tamarindo</h3>
         <div class="precio">
-          <p>Media 375 ml - $35.000</p>
-          <p>Botella 750 ml - $65.000</p>
+          <p><span>Media 375 ml</span> <strong>$35.000</strong></p>
+          <p><span>Botella 750 ml</span> <strong>$65.000</strong></p>
         </div>
-
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Smirnoff%20Tamarindo" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
+
       <article class="producto">
-        <span class="categoria">Smirnoff</span>
-        <h3>Smirnoff de Lulo</h3>
+        <div class="producto-img-caja">
+          <img src="img/smirnoff.jpeg" alt="Smirnoff Lulo">
+        </div>
+        <p class="categoria">Aperitivo</p>
+        <h3>Smirnoff Lulo</h3>
         <div class="precio">
-          <p>Botella 750 ml - $65.000</p>
+          <p><span>Botella 750 ml</span> <strong>$65.000</strong></p>
         </div>
-
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Smirnoff%20Lulo" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
-    </section>
+    </div>
 
-    <br><br><br>
-
-    <h2 id="hidratantes">Hidratantes</h2>
-    <section class="vitrina">
+    <h3 class="vitrina-titulo" id="hidratantes">Hidratantes</h3>
+    <div class="vitrina">
       <article class="producto">
-        <img src="img/electrolit.jpeg" alt="Electrolit">
-        <span class="categoria">Hidratantes</span>
+        <div class="producto-img-caja">
+          <img src="img/electrolit.jpeg" alt="Electrolit">
+        </div>
+        <p class="categoria">Hidratantes</p>
         <h3>Electrolit</h3>
         <div class="precio">
-          <p>Botella 625 ml - $12.000</p>
+          <p><span>Botella 625 ml</span> <strong>$12.000</strong></p>
         </div>
-
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Electrolit" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
+
       <article class="producto">
-        <img src="img/gatorade.jpeg" alt="Gatorade">
-        <span class="categoria">Hidratantes</span>
+        <div class="producto-img-caja">
+          <img src="img/gatorade.jpeg" alt="Gatorade">
+        </div>
+        <p class="categoria">Hidratantes</p>
         <h3>Gatorade</h3>
         <div class="precio">
-          <p>Botella 500 ml - $6.000</p>
+          <p><span>Botella 500 ml</span> <strong>$6.000</strong></p>
         </div>
-
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Gatorade" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
-    </section>
+    </div>
 
-    <br><br><br>
-
-    <h2 id="cervezas">Cervezas</h2>
-    <section class="vitrina">
+    <h3 class="vitrina-titulo" id="cervezas">Cervezas</h3>
+    <div class="vitrina">
       <article class="producto">
-        <img src="img/pilsen.jpeg" alt="Pilsen">
-        <span class="categoria">Cervezas</span>
+        <div class="producto-img-caja">
+          <img src="img/pilsen.jpeg" alt="Pilsen">
+        </div>
+        <p class="categoria">Cervezas</p>
         <h3>Pilsen</h3>
         <div class="precio">
-          <p>Unidad 330 ml - $5.000</p>
+          <p><span>Unidad 330 ml</span> <strong>$5.000</strong></p>
         </div>
-
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Cerveza%20Pilsen" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
+
       <article class="producto">
-        <img src="img/aguila.jpeg" alt="Aguila">
-        <span class="categoria">Cervezas</span>
+        <div class="producto-img-caja">
+          <img src="img/aguila.jpeg" alt="Águila Original">
+        </div>
+        <p class="categoria">Cervezas</p>
         <h3>Águila Original</h3>
         <div class="precio">
-          <p>Unidad 330 ml - $5.000</p>
+          <p><span>Unidad 330 ml</span> <strong>$5.000</strong></p>
         </div>
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Aguila%20Original" target="_blank" class="boton">Pedir por WhatsApp</a>
+      </article>
 
-        <br>
-
-        <article class="producto">
-        <img src="img/aguilalight.jpeg" alt="Light">
-        <span class="categoria">Cervezas</span>
+      <article class="producto">
+        <div class="producto-img-caja">
+          <img src="img/aguilalite.jpeg" alt="Águila Light">
+        </div>
+        <p class="categoria">Cervezas</p>
         <h3>Águila Light</h3>
         <div class="precio">
-          <p>Unidad 330 ml - $5.000</p>
+          <p><span>Unidad 330 ml</span> <strong>$5.000</strong></p>
         </div>
-
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Aguila%20Light" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
+
       <article class="producto">
-        <img src="img/corona.jpeg" alt="Corona">
-        <span class="categoria">Cervezas</span>
+        <div class="producto-img-caja">
+          <img src="img/corona.jpeg" alt="Corona Extra">
+        </div>
+        <p class="categoria">Cervezas</p>
         <h3>Corona</h3>
         <div class="precio">
-          <p>Unidad 330 ml - $7.000</p>
-          <p>Six pack - $38.000</p>
+          <p><span>Unidad 330 ml</span> <strong>$7.000</strong></p>
+          <p><span>Six-pack</span> <strong>$38.000</strong></p>
         </div>
-
-        <br>
-
+        <a href="https://wa.me/3171654405?text=Hola,%20deseo%20pedir%20Cerveza%20Corona" target="_blank" class="boton">Pedir por WhatsApp</a>
       </article>
-    </section>
+    </div>
   </main>
-
-  <footer>
-    <div class="columna">
-      <h3>Licores García</h3>
-      <p>Calidad, variedad y buen servicio.</p>
-      <p>Contáctanos para consultar disponibilidad y domicilios.</p>
-    </div>
-
-    <br>
-
-    <div class="columna">
-      <h3>Aviso Legal</h3>
-      <p>El exceso de alcohol es perjudicial para la salud.</p>
-      <p>Prohíbase el expendio de bebidas embriagantes a menores de edad.</p>
-    </div>
-
-    <br>
-
-    <div class="columna">
-      <h3>Contacto</h3>
-      <p>Teléfono: 3171654405</p>
-      <p>Dirección: Manrique, Medellín</p>
-      <p>2026 ~ Licores García. Todos los derechos reservados.</p>
-    </div>
-
-    <br>
-
-  </footer>
 
 </body>
 </html>
