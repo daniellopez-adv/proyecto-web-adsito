@@ -1,0 +1,49 @@
+:root {
+  --fondo: #050806;
+  --superficie: #0B1910;
+  --tarjeta-fondo: #0B1910;
+  --acento: #00E640;
+  --acento-hover: #15803D;
+  --texto: #F8FAFC;
+  --texto-suave: #94A3B8;
+  --borde: #15803D;
+  --boton-texto: #050806;
+  --radio: 12px;
+  --sombra: 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--fondo);
+  color: var(--texto);
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: var(--acento);
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
