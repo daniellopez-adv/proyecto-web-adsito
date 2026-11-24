@@ -1,62 +1,94 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Licores Garcia - Inicio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="kit.css"> 
-    <link rel="icon" href="img/logo.jpeg" >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Licores García - Inicio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/kit.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="icon" href="img/logo.jpeg">
 </head>
-    <header class="encabezado">
-        <p class="logo"> Licores García </p>
-       <nav>
-            <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="productos.html">productos</a></li>
-                <li><a href="servicio.html">servicios</a></li>
-                <li><a href="contacto.html">contacto</a></li>
-                <li><a href="nosotros.html">nosotros</a></li>
-            </ul>
-        </nav>
-    </header> 
-    <main>
-        <section class="hero contenedor">
-            <div>
-                <h1>Alcohol De Calidad A La Vuelta De La Esquina!</h1>
-                <p>Encuentra alcohol, hidratantes y productos para pasar un buen rato con tus amigos y familia</p>
-                <a class="boton" href="https://wa.me/3171654405">Pide ahora por WhatsApp</a>
-            </div>
+<body>
 
-            <img src="img/logo.jpeg" alt="Licores nacionales e internacionales">
-        </section>
+  <header class="encabezado">
+    <a href="index.html" class="logo">
+      <img src="img/logo.jpeg" alt="Logo de Licores García">
+      Licores <span>García</span>
+    </a>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html" class="activo">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="servicio.html">Servicios</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <section class="contenedor" id="beneficios">
-            <h2>¿Por qué comprar en Licores García?</h2>
-            <div class="beneficios">
-                <article class="beneficio">
-                    <h3>🤝 Atención cercana</h3>
-                    <p>Te atendemos con amabilidad y te ayudamos a elegir la mejor opción para el momento.</p>
-                </article>
-                <article class="beneficio">
-                    <h3>💰 Precios justos</h3>
-                    <p>Encuentra productos nacionales e internacionales a un precio justo.</p>
-                </article>
-                <article class="beneficio">
-                    <h3>👌 Calidad Asegurada</h3>
-                    <p>Tenemos los mejores licores de la mejor calidad para que compartas con seguridad con amigos y familiares</p>
-                </article>
-            </div>
-        </section>
+  <main>
+    <section class="hero contenedor" id="inicio">
+      <div>
+        <h1>Alcohol de calidad a la <span>vuelta de la esquina</span></h1>
+        <p>Encuentra alcohol, hidratantes y productos para pasar un buen rato con tus amigos y familia. Domicilios rápidos en Medellín.</p>
+        <div class="hero-acciones">
+          <a href="productos.html" class="boton">Ver productos</a>
+          <a href="https://wa.me/3171654405" target="_blank" class="boton boton-secundario">Pedir por WhatsApp</a>
+        </div>
+      </div>
+      <div class="hero-imagen">
+        <img src="img/logo.jpeg" alt="Licores García en Medellín">
+      </div>
+    </section>
 
-        <section class="contenedor" id="como-funciona">
-            <h2>Cómo pedir</h2>
-            <ol class="pasos">
-                <li>Visítanos o escríbenos por WhatsApp.</li>
-                <li>Cuéntanos qué licores deseas o productos necesitas.</li>
-                <li>Confirma tu pedido y coordina cómo recibirlo.</li>
-            </ol>
-        </section>
-    </main>
+    <section class="seccion contenedor" id="beneficios">
+      <h2>¿Por qué comprar en Licores García?</h2>
+      <div class="beneficios">
+        <article class="beneficio">
+          <h3>🤝 Atención cercana</h3>
+          <p>Te atendemos con amabilidad y te ayudamos a elegir la mejor opción para el momento.</p>
+        </article>
+
+        <article class="beneficio">
+          <h3>💰 Precios justos</h3>
+          <p>Encuentra productos nacionales e internacionales a un precio justo y competitivo.</p>
+        </article>
+
+        <article class="beneficio">
+          <h3>👌 Calidad asegurada</h3>
+          <p>Tenemos los mejores licores debidamente estampillados para que compartas con seguridad.</p>
+        </article>
+
+        <article class="beneficio">
+          <h3>🛵 Domicilios rápidos</h3>
+          <p>Llevamos tus bebidas frías y listas a la puerta de tu casa en tiempo récord.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="seccion contenedor" id="como-pedir">
+      <h2>Cómo pedir</h2>
+      <div class="pasos">
+        <article class="paso">
+          <h3>1. Elige tu licor</h3>
+          <p>Revisa el catálogo de productos y escoge las presentaciones que prefieras.</p>
+        </article>
+
+        <article class="paso">
+          <h3>2. Escríbenos</h3>
+          <p>Contáctanos al WhatsApp 317 165 4405 indicando tu pedido y dirección.</p>
+        </article>
+
+        <article class="paso">
+          <h3>3. Recibe en casa</h3>
+          <p>Te entregamos en la puerta de tu casa. Aceptamos efectivo y transferencias.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
 </body>
 </html>
