@@ -277,6 +277,24 @@
   width: 100%;
 }
 
+.contacto-subtitulo {
+  text-align: center;
+  color: var(--texto-suave);
+  max-width: 650px;
+  margin: 0 auto 2rem;
+}
+
+.contacto-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.contacto-card .boton {
+  margin-top: auto;
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .encabezado {
     flex-direction: row;
