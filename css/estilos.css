@@ -372,7 +372,92 @@
     font-size: 0.85rem;
     width: 100%;
   }
+.contacto-form {
+  max-width: 550px;
+  margin: 2.5rem auto 0;
+  background-color: var(--tarjeta-fondo);
+  border: 1px solid rgba(21, 128, 61, 0.35);
+  border-radius: var(--radio);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 
+.contacto-form h3 {
+  color: var(--acento);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.contacto-campo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.contacto-campo label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--texto);
+}
+
+.contacto-campo input,
+.contacto-campo textarea {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  background-color: var(--fondo);
+  border: 1px solid rgba(21, 128, 61, 0.45);
+  border-radius: 8px;
+  color: var(--texto);
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+.contacto-campo input:focus,
+.contacto-campo textarea:focus {
+  outline: none;
+  border-color: var(--acento);
+}
+
+.contacto-form button {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-family: inherit;
+}
+
+.pie {
+  background-color: var(--superficie);
+  border-top: 1px solid rgba(21, 128, 61, 0.35);
+  padding: 1.5rem 1rem;
+  margin-top: auto;
+  text-align: center;
+  color: var(--texto-suave);
+  font-size: 0.9rem;
+}
+
+.pie p + p {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+}
+
+.pie strong {
+  color: var(--acento);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+}
+
+  
   /* Daniel lopez */
 #nosotros,
 #historia,
