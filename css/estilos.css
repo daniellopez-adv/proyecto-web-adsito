@@ -295,83 +295,6 @@
   width: 100%;
 }
 
-@media (min-width: 768px) {
-  .encabezado {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-  }
-
-  .hero {
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    text-align: left;
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
-  }
-
-  .hero-acciones {
-    justify-content: flex-start;
-  }
-
-  .hero h1 {
-    font-size: 2.4rem;
-  }
-
-  .beneficios {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .pasos {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .vitrina {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 1024px) {
-  .hero h1 {
-    font-size: 2.8rem;
-  }
-
-  .beneficios {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .vitrina {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 360px) {
-  .contenedor {
-    padding: 0 0.6rem;
-  }
-
-  .encabezado {
-    padding: 0.8rem 0.5rem;
-  }
-
-  .menu a {
-    padding: 0.3rem 0.5rem;
-    font-size: 0.8rem;
-  }
-
-  .hero h1 {
-    font-size: 1.5rem;
-  }
-
-  .hero p {
-    font-size: 0.9rem;
-  }
-
-  .boton {
-    padding: 0.7rem 1rem;
-    font-size: 0.85rem;
-    width: 100%;
-  }
 .contacto-form {
   max-width: 550px;
   margin: 2.5rem auto 0;
@@ -457,8 +380,90 @@ main {
   width: 100%;
 }
 
-  
-  /* Daniel lopez */
+@media (min-width: 768px) {
+  .encabezado {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: left;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .hero-acciones {
+    justify-content: flex-start;
+  }
+
+  .hero h1 {
+    font-size: 2.4rem;
+  }
+
+  .beneficios {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pasos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .vitrina {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+
+  .beneficios {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .vitrina {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 360px) {
+  .contenedor {
+    padding: 0 0.6rem;
+  }
+
+  .encabezado {
+    padding: 0.8rem 0.5rem;
+  }
+
+  .menu a {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  .boton {
+    padding: 0.7rem 1rem;
+    font-size: 0.85rem;
+    width: 100%;
+  }
+
+  .producto-img-caja {
+    height: 180px;
+  }
+}
+
+/* Daniel lopez */
 #nosotros,
 #historia,
 #mision-vision,
@@ -485,10 +490,5 @@ main {
   #historia .beneficios,
   #mision-vision .beneficios {
     grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-  .producto-img-caja {
-    height: 180px;
   }
 }
