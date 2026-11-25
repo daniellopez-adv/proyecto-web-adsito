@@ -38,3 +38,8 @@ Usuarios y clientes nuevos y antiguos en la tienda.
 
 ## Boceto de la página de inicio
 ![Boceto](boceto.jpg)
+
+## Cambios por la revisión del cliente
+- Completar las paginas
+- Agregar las diferentes imagenes
+- Agregar mensaje de "El exceso de alcohol es perjudicial para la salud. Prohíbase el expendio de bebidas embriagantes a menores de edad."
